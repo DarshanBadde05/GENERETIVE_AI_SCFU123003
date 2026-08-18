@@ -1,0 +1,43 @@
+**********DeepSeek-V4-Flash-0731*******
+Who created the model?
+  DeepSeek-AI
+How many parameters does it have?
+  304B parameters
+Is it a generative model?
+  Yes. It is a text-generation and conversational model.
+What is the context length?
+  Up to 1 million tokens (million-token context).
+Is the model suitable for local execution?
+  Yes, the model card provides instructions for running DeepSeek-V4 locally, but it requires very powerful hardware.
+What hardware does the model card recommend?
+  The example uses a single 4×GB300 GPU node with vLLM.
+
+***MiniMax H3***
+Who created the model?
+  MiniMax
+How many parameters does it have?
+  33B parameters
+Is it a generative model?
+  Yes. It is a multimodal generative model that generates video and audio.
+What is the context length?
+  Not specified in the provided model card.
+Is the model suitable for local execution?
+  Yes, H3-Base supports local deployment.
+What hardware does the model card recommend?
+  The example deployment uses 4 GPUs with SGLang.
+
+*****MiniMax Music 3******
+Who created the model?
+  MiniMax
+How many parameters does it have?
+  2B parameters. It combines an 8B Global LLM, 0.6B Local LLM, 2.4B Flow Matching, and 123M Flow-VAE Decoder.
+Is it a generative model?
+  Yes. It is a music-generation model that generates complete songs with vocals and music.
+What is the context length?
+  The tokenized text prompt is limited to 5,000 tokens.
+Is the model suitable for local execution?
+  Yes. It supports local execution with CUDA and can run with low VRAM using CPU offloading.
+What hardware does the model card recommend?
+  A GPU with 24GB+ VRAM is recommended. With CPU offloading, it can run on around 22GB VRAM, and with additional layer-by-layer offloading, it can run on an 8GB GPU.
+
+
