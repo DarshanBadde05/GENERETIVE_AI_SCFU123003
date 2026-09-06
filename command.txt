@@ -1,0 +1,8 @@
+env
+pyhton -m vemv myenv
+
+Activation
+.\myenv\Scripts\activate 
+
+freeze requrments
+pip freeze > .\requrment.txt
